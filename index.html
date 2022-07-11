@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="container">  
+        <div class="heading">
+        <h2><h1 class="bmih1"> BMI</h1><H1 class="calh1"> Calculator</H1></h2>
+        </div>
+        
+
+
+        <div class="row1">
+            <label>
+                <input id="h-input" type="number" placeholder="Enter Your Height in Meter: " required>
+            </label>    
+        </div>
+
+        <div class="row2">
+            <label>
+                <input id="w-input" type="number" placeholder="Enter Your Weight in Kilogrames: " required>
+            </label>
+        </div>
+            
+        <div class="cal">
+            <button type="submit" onclick="Calculate()">Calculate BMI</button>
+        </div>
+
+          
+       
+  
+        <div class="bmi-value">
+            <h4>BMI Value:<div id="bmi-output"></div> </h4>
+            
+        </div>
+
+        <div class="status">
+            <h4>Status: </h4>
+            <div id="bmi-status"></div>
+        </div>
+     
+        <div class="try">
+            <button type="submit" onclick="Calculate()">Retry</button>
+        </div> 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="bmi.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Quicksand';
+}
+.heading
+{
+    text-align: center;
+}
+.bmih1{
+    color: rgb(120, 11, 98);
+    display: inline;
+    font-size: 40px;
+    font-family: 'Quicksand';
+}
+.calh1
+{
+    display: inline;
+    font-size: 40px;
+    font-family: 'Quicksand';
+}
+.container
+{
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     min-height: 100vh;
+     grid-template-columns: 30vw;
+     grid-template-rows: repeat(3,10vh) 5vh repeat(2,10vh);
+     grid-gap: 10px;
+     padding: 5px;
+    margin: 0px;
+    overflow: auto;
+    width: 100%; 
+}
+body{
+    /* background: rgb(216, 136, 180); */
+    /* background-image: url(https://images.pexels.com/photos/3927387/pexels-photo-3927387.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    /* opacity: 5px;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(231, 145, 198));
+}
+
+h1
+{
+    display: block;
+    font-family: 'Quicksand';
+    font-size:50px;
+    text-align: center;
+    color: black;
+
+}
+.submit-btn{
+    background-color: rgb(255, 255, 255);
+}
+.bmi-value{
+    background-color: rgb(227, 154, 227);
+    margin-top: 10px;
+    display: inline;
+    grid-template-rows: 50% 50%;
+    box-shadow: 17px 18px 27px 0px rgba(0,0,0,0.41);
+
+}
+.status{
+    background-color: rgb(186, 73, 152);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    box-shadow: 17px 18px 27px 0px rgba(0,0,0,0.41);
+    
+}
+.container > div{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+
+.form1:hover{
+    box-shadow: 0 0 60px 0 #ccc;
+    transition: .4s;
+    transform: scale(1.02);
+  }
+
+input
+{
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    box-shadow: 17px 18px 27px 0px rgba(0,0,0,0.41);
+
+}
+.cal{
+    text-align: center;
+    padding: 2px;
+}
+
+
+.try  
+{
+    text-align: center;
+}
+input{
+    background: #ff99f8;
+    text-indent: 0.5em;
+    max-width:100% ;
+    color: black;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button{
+    background: rgb(224, 77, 168);
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    color: white;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+
+   
+
+}
+button:hover{
+    background: #dc3ab3;
+    color: white;
+}
+.cal{
+    padding-top: 200px
+}
+
+
+
